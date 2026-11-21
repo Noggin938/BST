@@ -111,25 +111,25 @@ public class BSTClassExample {
             choice = input.nextInt();
 
             switch (choice) {
-
+                //Displays the result of Inorder Traversal
                 case 1:
                     System.out.println("Inorder Traversal:");
                     inorder(root);
                     System.out.println();
                     break;
-
+                    //Displays the result of Preorder Traversal
                 case 2:
                     System.out.println("Preorder Traversal:");
                     preorder(root);
                     System.out.println();
                     break;
-
+                    //Displays the result of Postorder Traversal
                 case 3:
                     System.out.println("Postorder Traversal:");
                     postorder(root);
                     System.out.println();
                     break;
-
+                    //Exits the program
                 case 4:
                     System.out.println("Exiting program. Goodbye!");
                     break;
